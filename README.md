@@ -1,11 +1,14 @@
 Ajuda --> http://www.dawidpelc.com/api/laravel_projecte_baleart-dawidmateujulia/public/api
 
 Per fer feina és necessari fer un login:
-http://www.dawidpelc.com/api/laravel_projecte_baleart-dawidmateujulia/public/api/login
+http://www.dawidpelc.com/api/laravel_projecte_baleart-dawidmateujulia/public/api/login --> Mètode POST
 
 Usuari registrat:
 email=random@paucasesnovescifp.cat
 password=secret
 
+Per fer el login heu d'enviar una solicitud a la URL abans mencionada amb el mètode POST, indicant al body, en format x-www-form-urlencoded els dos paràmetres de email i password amb els valors corresponents.
+
 Una vegada registrats podreu emprar el token obtingut per fer altres consultes, com per exemple, crear un usuari propi per no emprar tots el mateix:
 http://www.dawidpelc.com/api/laravel_projecte_baleart-dawidmateujulia/public/api/usuaris -> POST (podeu consultar els paràmetres en la pàgina d'ajuda)
+Per fer qualsevol petició sempre haureu de posar el token al camp "Authorzation" del tipus "Bearer Token"
