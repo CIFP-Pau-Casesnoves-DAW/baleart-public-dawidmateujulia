@@ -1,3 +1,9 @@
+Hola, gràcies a tots els que ens heu escrit errors i dubtes sobre la nostra API, ens ha ajudat a millorar i aprendre moltes coses. Us invitam a veure el projecte que hem creat per el nostre mòdul al següent enllaç:
+
+http://www.dawidpelc.com/
+
+Recomanable obrir des d'un ordinador ja que no és massa responsive.
+
 Ajuda --> http://www.dawidpelc.com/api/laravel_projecte_baleart-dawidmateujulia/public/api
 
 Per fer feina és necessari fer un login:
